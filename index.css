@@ -1,0 +1,187 @@
+
+html, body { max-width: 100%; overflow-x: hidden; }
+
+
+#title {
+  width: 100%;
+  text-align: center;
+  font-family: "Open Sans", Helvetica;
+
+}
+
+ul {
+  list-style: none;
+ position: relative;
+  left: -10px;
+
+}
+
+li {
+  display: inline;
+  padding: 20px;
+  font-family: "Open Sans", Helvetica;
+
+}
+
+hr {
+  width:600px;
+
+}
+
+form,#content {
+  position: relative;
+  left: -300px;
+  text-align: center;
+  font-family: "Open Sans", Helvetica;
+  margin: 0 auto; 
+  width:800px;
+  padding: 0px;
+
+}
+
+#text{
+  text-align: center;
+}
+
+#names,#surname,#date,#venue,#initials {
+    text-align: center;
+}
+
+#initials {
+  position: relative;
+  top: 50px;
+}
+
+#text {
+  position: relative;
+  top: 85px;
+  font-style: italic;
+}
+
+#names {
+  position: relative;
+  top: 90px;
+}
+
+#surname {
+  position: relative;
+  top: 95px;
+}
+
+#date {
+  position: relative;
+  top:110px;
+}
+
+#venue, #address, #location {
+  position:relative;
+  top:115px;
+}
+
+
+#formal {
+  background-image:url("https://picsum.photos/600/700");
+  color: white;
+  position: absolute;
+  right:50px;
+  top: 80px;
+  display: block;
+  height: 85%;
+  width: 40%;
+   font-family: "Times New Roman", Times, serif;
+   font-style: italic;
+}
+
+#spring {
+  background-image: url(https://i2.wp.com/bridalmusings.com/wp-content/uploads/2015/04/Spring-Wedding-Bridal-Musings-Wedding-Blog-2.jpg?resize=%2C);
+  color:lightpink;
+    position: absolute;
+  right:50px;
+  top: 80px;
+  display: block;
+  height: 85%;
+  width: 40%;
+  font-family: "Open Sans", Helvetica;
+  text-shadow: 1px 1px black;
+
+}
+
+#fireworks {
+  
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/3/34/Canada_Day_2016_Fireworks_%2827929885402%29.jpg);
+      font-family: "Open Sans", Helvetica;
+  
+    color:silver;
+    position: absolute;
+   right:50px;
+   top: 80px;
+     display: block;
+   height: 85%;
+   width: 40%;
+     text-shadow: 1px 1px gray;
+}
+
+#fireworks h1 {
+  text-decoration: underline;
+  text-underline-position: under;
+  padding-bottom: 50px;
+}
+
+
+
+button {
+  background: transparent;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  outline: 0;
+}
+
+/* Custom */
+button {
+  display: inline-block;
+  position: relative;
+  padding: 15px 28px;
+  top: 0;
+  font-size: 15px;
+  font-family: "Open Sans", Helvetica;
+  border-radius: 4px;
+  border-bottom: 1px solid rgba( 28, 227, 125, 0.5 );
+  background: rgba( 22, 230, 137, 1 );
+  color: #fff;
+  box-shadow: 0px 0px 0px rgba( 15, 165, 60, 0.1 );
+  transform: translateZ(0);
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  top: -10px;
+  box-shadow: 0px 10px 10px rgba( 15, 165, 60, 0.2 );
+  transform: rotateX(20deg);
+}
+
+button:active {
+  top: 0px;
+  box-shadow: 0px 0px 0px rgba( 15, 165, 60, 0.0 );
+  background: rgba( 20, 224, 133, 1 );
+}
+
+input 				{
+  font-size:18px;
+  padding:10px 10px 10px 5px;
+  border:none;
+  border-bottom:1px solid #757575;
+  width: 600px;
+  text-align: center;
+}
+
+
+input[type=date]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    display: none;
+}
+
+input[type=date]::-webkit-calendar-picker-indicator {
+    -webkit-appearance: none;
+    display: none;
+}

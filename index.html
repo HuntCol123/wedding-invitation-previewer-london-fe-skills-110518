@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>#hitched</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.5">
+  <link rel="stylesheet" href="index.css">
+  <script src="index.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  </head>
+  
+  <body>
+    <header>
+      <h1 id="title">#hitched</h1>
+    </header>
+
+    <main>
+      <div id = "content"><p><b>Select your theme:</b></p>
+      <ul class="style-selector">
+        <li><button id="formalButton" class="button">Formal</button></li>
+        <li><button id="springButton" class="button">Spring</button></li>
+        <li><button id="fireworksButton" class="button">Fireworks</button></li>
+      </ul>
+      
+      </div>
+        <form id="form">
+          <hr>
+      <p>Groom's Name</p>
+      <input type="text" name="groomName" id="groomName" class="question">
+      <p>Bride's Name</p>
+      <input type="text" name="brideName" id="brideName" class="question">
+      <p>Date</p>
+      <input type="date" id="dateInput" class="question" required="required">
+      <p>Venue</p>
+      <input type="text" id="venueInput" class="question"><br><br>
+   
+    </form> 
+    
+    
+    <div id="formal">
+      <h1 id="initials"></h1>
+      <p id="text"></p>
+      <h2 id="names"></h2>
+      <h2 id="date"></h2>
+      <h2 id="venue"></h2>
+      
+      </div>
+    </main>
+    
+    </body>
+    </html>
